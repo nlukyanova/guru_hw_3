@@ -168,4 +168,6 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
  # Java heap dump
  *.hprof
 
+### HTML
+.html linguist-vendored
  # End of https://www.toptal.com/developers/gitignore/api/java,gradle,intellij
