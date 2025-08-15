@@ -58,7 +58,7 @@ public class TestRegistrationForm {
         //Отправка формы
         $("#submit").click();
 
-        //Проверка модального окна
+        //Проверка данных в модальном окне
        $(".modal-body").find(byText("Student Name")).closest("tr").shouldHave(text("John Smith"));
        $(".modal-body").find(byText("Student Email")).closest("tr").shouldHave(text("Smith@gmail.com"));
        $(".modal-body").find(byText("Mobile")).closest("tr").shouldHave(text("7984562113"));
