@@ -59,15 +59,15 @@ public class TestRegistrationForm {
         $("#submit").click();
 
         //Проверка данных в модальном окне
-       $(".modal-body").find(byText("Student Name")).closest("tr").shouldHave(text("John Smith"));
-       $(".modal-body").find(byText("Student Email")).closest("tr").shouldHave(text("Smith@gmail.com"));
-       $(".modal-body").find(byText("Mobile")).closest("tr").shouldHave(text("7984562113"));
-       $(".modal-body").find(byText("Date of Birth")).closest("tr").shouldHave(text("02 July,1999"));
-       $(".modal-body").find(byText("Subjects")).closest("tr").shouldHave(text("Arts"));
-       $(".modal-body").find(byText("Hobbies")).closest("tr").shouldHave(text("Sports"));
-       $(".modal-body").find(byText("Picture")).closest("tr").shouldHave(text("Upload1.jpg"));
-       $(".modal-body").find(byText("Address")).closest("tr").shouldHave(text("Address"));
-       $(".modal-body").find(byText("State and City")).closest("tr").shouldHave(text("Haryana Panipat"));
+        $(".modal-body").find(byText("Student Name")).closest("tr").shouldHave(text("John Smith"));
+        $(".modal-body").find(byText("Student Email")).closest("tr").shouldHave(text("Smith@gmail.com"));
+        $(".modal-body").find(byText("Mobile")).closest("tr").shouldHave(text("7984562113"));
+        $(".modal-body").find(byText("Date of Birth")).closest("tr").shouldHave(text("02 July,1999"));
+        $(".modal-body").find(byText("Subjects")).closest("tr").shouldHave(text("Arts"));
+        $(".modal-body").find(byText("Hobbies")).closest("tr").shouldHave(text("Sports"));
+        $(".modal-body").find(byText("Picture")).closest("tr").shouldHave(text("Upload1.jpg"));
+        $(".modal-body").find(byText("Address")).closest("tr").shouldHave(text("Address"));
+        $(".modal-body").find(byText("State and City")).closest("tr").shouldHave(text("Haryana Panipat"));
 
         //Закрытие модального окна
         $(".modal-footer").scrollTo().shouldBe(visible);
