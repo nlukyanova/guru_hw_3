@@ -30,8 +30,10 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
  # Gradle
  .idea/**/gradle.xml
  .idea/**/libraries
- .gradle/
- build/
+ /build
+  /.gradle
+  **/build/
+  !src/**/build/
 
  # Gradle and Maven with auto-import
  # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -57,7 +59,7 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
 
  # IntelliJ
  out/
-.idea/
+/.idea
 
  # mpeltonen/sbt-idea plugin
  .idea_modules/
@@ -142,12 +144,6 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
  # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
  hs_err_pid*
  replay_pid*
-
- ### Gradle ###
- build
- /.gradle
- **/build/
- !src/**/build/
 
  # Ignore Gradle GUI config
  gradle-app.setting
