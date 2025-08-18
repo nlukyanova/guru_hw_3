@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2554904-d706-4b1e-95f5-4a2875dbdc3a" name="Changes" comment="gitignire third fixes">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistrationForm.java" afterDir="false" />
+    <list default="true" id="c2554904-d706-4b1e-95f5-4a2875dbdc3a" name="Changes" comment="update gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755281430588</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bypassing footer ads">
+      <option name="closed" value="true" />
+      <created>1755506716564</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755506716564</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update gitignore">
+      <option name="closed" value="true" />
+      <created>1755507150242</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755507150243</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +245,9 @@
     <MESSAGE value="gitignire fixes" />
     <MESSAGE value="gitignire second fixes" />
     <MESSAGE value="gitignire third fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignire third fixes" />
+    <MESSAGE value="bypassing footer ads" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Guru_hw_3$TestRegistrationForm_registrationForm.ic" NAME="TestRegistrationForm.registrationForm Coverage Results" MODIFIED="1755109566192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
