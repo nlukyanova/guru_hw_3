@@ -55,7 +55,7 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
 
  # IntelliJ
  out/
- /.idea
+.idea
 
  # mpeltonen/sbt-idea plugin
  .idea_modules/
@@ -142,7 +142,7 @@ p# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,intell
  replay_pid*
 
  ### Gradle ###
- /build
+ build
  /.gradle
  **/build/
  !src/**/build/
